@@ -41,7 +41,39 @@ if(myNumber3 > myNumber4){
 let side1 = Number(prompt("Length of First side of your triangle"));
 let side2 = Number(prompt("Length of Second side of your triangle"));
 let side3 = Number(prompt("Length of Third side of your triangle"));
+if(side1*2 == side2 + side3){
+        console.log("this is an equalateral triangle");   
+}else if(side1 = side2){
+    if(side1 != side3){
+        console.log("this is an isosceles triangle");
+    }
+}else if(side1 = side3){
+    if(side1 != side2){
+        console.log("this is an isosceles triangle");
+    }
+}else if(side2 = side3){
+    if(side2 != side1){
+        console.log("this is an isosceles triangle");
+    }
+}else if(side1 != side2){
+    if(side2 != side3)
+    console.log("the triangle is scalene");
+}
 
-if(side1*2 == (side2 + side3)){
-    console.log("Equilateral")
+//5
+let num1 = Number(prompt("enter your first number"));
+let num2 = Number(prompt("enter your second number"));
+let operation = prompt("what operation do you want applied");
+if(operation == "add"){
+    console.log(num1 + num2);
+}else if(operation=="subtract"){
+        console.log(num1 - num2);
+}else if(operation == "multiply"){
+    console.log(num1 * num2);
+}else if(operation == "divide"){
+        console.log(num1 / num2);
+}else if(operation=="modulus"){
+    console.log(num1 % num2);
+}else{
+    console.log("invalid operation")
 }
