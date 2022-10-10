@@ -297,3 +297,17 @@ case 'B':
 default:
     console.log("Grade not recognized");
 }
+
+let count=0;
+while(count<10){
+    console.log(count);
+    count++; //count = count+1
+}
+
+//DO WHILE LOOP
+//ALWAYS RUNS THE CODE
+//AT LEAST ONCE
+do{
+    console.log(count);
+    count++
+}while(count<20);
