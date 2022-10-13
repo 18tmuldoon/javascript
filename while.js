@@ -31,3 +31,12 @@ do{
 }while(sp<=numRow)
 
 //5
+let numDigits = Number(prompt("enter a number"))
+let result = 0;
+  
+    while (numDigits > 0) {
+      numDigits = Math.floor(numDigits / 10);
+      result++;
+    }
+  
+    console.log(result);
