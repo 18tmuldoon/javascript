@@ -40,3 +40,14 @@ let result = 0;
     }
   
     console.log(result);
+
+//6
+let userNum1 = Number(prompt("enter a number"))
+let sum = 0;
+
+while (userNum1) {
+    sum += userNum1 % 10;
+    userNum1 = Math.floor(userNum1 / 10);
+}
+
+console.log(sum);
