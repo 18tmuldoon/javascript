@@ -15,9 +15,13 @@ do{
 //3
 let userNum = Number(prompt("enter a number"))
 let userPower = Number(prompt("enter what power you want"))
+let res = userNum**userPower
 
-let x =Math.pow(userNum , userPower)
-console.log(x)
+do{
+    userNum++
+}while(userNum<=res);
+
+console.log(userNum - 1)
 
 //4
 let numRow = Number(prompt("enter number of rows"))
