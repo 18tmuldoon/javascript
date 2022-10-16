@@ -25,28 +25,28 @@ switch(x){
 if(compChoice == 'rock'){
     if(y == 'rock')
     console.log("Draw");
-}else if((compChoice == 'paper')){
+}if((compChoice == 'paper')){
     if(y == 'paper')
     console.log("Draw");
-}else if((compChoice == 'scissors')){
+}if((compChoice == 'scissors')){
     if(y == 'scissors')
     console.log("Draw");
-}else if((compChoice == 'rock')){
+}if((compChoice == 'rock')){
     if(y == 'paper')
     console.log("You Win");
-}else if((compChoice == 'rock')){
+}if((compChoice == 'rock')){
     if(y == 'scissors')
     console.log("You Lose");
-}else if((compChoice == 'paper')){
+}if((compChoice == 'paper')){
     if(y == 'scissors')
     console.log("You Win");
-}else if((compChoice == 'paper')){
+}if((compChoice == 'paper')){
     if(y == 'rock')
     console.log("You Lose");
-}else if((compChoice == 'scissors')){
+}if((compChoice == 'scissors')){
     if(y == 'rock')
     console.log("You Win");
-}else if((compChoice == 'scissors')){
+}if((compChoice == 'scissors')){
     if(y == 'paper')
     console.log("You Lose");
 }
