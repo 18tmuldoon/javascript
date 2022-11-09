@@ -325,3 +325,16 @@ while(h<20){
     document.write(h+"<br>")
 }
 document.write("Leaving loop:<br>")
+
+//Continue statement
+h = 0;
+document.write("Entering loop:<br>");
+
+while(h<20){
+    h = h+1;
+    if(h == 5){
+        conrtinue;
+    }
+    document.write(h+"<br>")
+}
+document.write("Leaving loop:<br>")
