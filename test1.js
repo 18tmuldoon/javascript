@@ -311,3 +311,17 @@ do{
     console.log(count);
     count++
 }while(count<20);
+
+//Break statement 
+
+let h = 0;
+document.write("Entering loop:<br>");
+
+while(h<20){
+    h = h+1;
+    if(h == 5){
+        break;
+    }
+    document.write(h+"<br>")
+}
+document.write("Leaving loop:<br>")
