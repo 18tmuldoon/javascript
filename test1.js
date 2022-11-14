@@ -338,38 +338,57 @@ while(h<20){
     document.write(h+"<br>")
 }
 document.write("Leaving loop:<br>")
-/* the array object allows you to
-
- store multiple values in a single variable
 
 
+//Arrays
+/*
+The array object allows you to store multiple values in a single variable.
 
- it stores a fixed size sewuntial collection
+It stores a fixed size, sequential collection of elements of the same or mixed type
 
- of ellements of the same or mixed type*/
+To create an array*/
+
+let MyArray = new Array("apples","oranges");
+let MyArray2 = ["apples","oranges"];
+
+/*To access elements of an array we use indexing
+indexing is when you type the array name followed
+by square brackets. The number you put between the
+squere brackets is the number of the element in the
+array you wish to access.
+
+All arrays start with index value 0.*/
+document.write(MyArray[0]);//This prints apples
+document.write(MyArray[1]);//This prints oranges
+
+/*To chande the array element
+use indexing to locate the element and then
+an assigment operation to assign a new value.*/
+
+MyArray2[0] = "Lemon";
+document.write(MyArray2[0],"<br>");
+/*Very important!!
+javascript will not crash with invalid
+index errors. It will pad the array with
+empty spaces.*/
+document.write(MyArray2);
+MyArray2[10] = "test";
+document.write(MyArray2);
+/*To add elements to an array you can use the
+push command. They will be pushed on to the end
+of the array*/
+
+MyArray2.push("lime");
+
+/*To remove the last element from an array you
+can use the pop command*/
+MyArray2.pop();//This removse the last element
+
+/*To create an empty array you can use
+the new Array() command or a pair of empty
+squere brackets*/
+
+let MyArray3 = new Array();
+let MyArray4 = [];
 
 
-
- // to create an array
-
- let myarray = new Array("apples","oranges");
-
- let myarray2 = ["apples","oranges"];
-
-
-
- /*to access eleamenys of an array we use idexing.
-
-indexing is when you type the array name followed by
-
-square brackets []. the number you put between the square brakets
-
-is the number of the element in the array you wish to access.*/
-
-
-
-//all arrays start with the index value 0
-
-document.write(myarray2[0]);//this prints apples
-
-document.write(myarray2[1]);// this prints oranges
