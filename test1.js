@@ -338,3 +338,38 @@ while(h<20){
     document.write(h+"<br>")
 }
 document.write("Leaving loop:<br>")
+/* the array object allows you to
+
+ store multiple values in a single variable
+
+
+
+ it stores a fixed size sewuntial collection
+
+ of ellements of the same or mixed type*/
+
+
+
+ // to create an array
+
+ let myarray = new Array("apples","oranges");
+
+ let myarray2 = ["apples","oranges"];
+
+
+
+ /*to access eleamenys of an array we use idexing.
+
+indexing is when you type the array name followed by
+
+square brackets []. the number you put between the square brakets
+
+is the number of the element in the array you wish to access.*/
+
+
+
+//all arrays start with the index value 0
+
+document.write(myarray2[0]);//this prints apples
+
+document.write(myarray2[1]);// this prints oranges
