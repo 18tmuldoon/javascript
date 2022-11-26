@@ -11,7 +11,7 @@ document.write("<br>")
 //3
 document.write("The negative elements are:");
     document.write("<br>");
-let num=1;
+let num=0;
 while(num<=10){
     num++;
 if(MyArray[num]<1){
@@ -52,7 +52,7 @@ document.write("<br>");
 //6
 let MyArrayCopy = MyArray
 let maxValue1 = Math.max(...MyArrayCopy);
-let n1=1;
+let n1=0;
 while(n1<=10){
     n1++;
 if(MyArray[n1]==maxValue1){
@@ -66,7 +66,7 @@ document.write(maxValue2);
 
 //7
     document.write("<br>");
-let num1=1;
+let num1=0;
 let even=0;
 let odd=0;
 while(num1<=10){
